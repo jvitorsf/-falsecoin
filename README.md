@@ -1,0 +1,4 @@
+-falsecoin
+==========
+
+False coin test
