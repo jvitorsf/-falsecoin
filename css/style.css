@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+.fleft{
+	float: left;
+}
+
+.fright{
+	float: right;
+}
+
+.container{
+	width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	background: #131313;
+	font-family: arial, verdana;
+	color: #FEFEFE;
+	position: relative;
+	padding-top: 30px;
+}
+
+.footer{
+	height: 200px;
+	background: #F9F9F9;
+	position: absolute;
+	bottom: 0;
+}
+
+.circle{
+	background: #7D603E;
+	width: 47px;
+	height: 47px;
+	border-radius: 50%;
+	display: inline-block;
+	border: 1px solid #232621;
+}
+
+.box{
+	width: 210px;
+	min-height: 200px;
+	margin-left: 80px;
+	display: block;
+	border: 2px solid #E0D1A3;
+}
+
+.balanca{
+	width: 600px;
+	position: relative;
+	left: 30px;
+	background: #5E7D4D;
+  	overflow: hidden;
+  	display: inline-block;
+}
+
+.balanca > div{
+	width: 49.5%;
+	height: 300px;
+	border: 2px solid #E0D1A3;
+}
+
+.balanca > div:nth-child(1){
+	border-right: 0;
+}
+
+.disposal{
+	width: 210px;
+	min-height: 200px;
+	margin-left: 80px;
+	display: inline-block;
+	border: 2px solid #E0D1A3;
+	margin-right: 80px;
+}
+
+#resposta{
+	width: 80px;
+	min-height: 80px;
+	margin-left: 80px;
+	display: inline-block;
+	border: 2px solid #E0D1A3;
+}
+
+.btn-pesar{
+	border-radius: 5px;
+	padding: 5px;
+	border: 0;
+	font-size: 12pt;
+	background: #7E7F80;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.btn-resposta{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 5px;
+	padding: 5px;
+	border: 0;
+	font-size: 12pt;
+	background: #7E7F80;
+	cursor: pointer;
+}
+
+h3{
+	position: absolute;
+	top: 0;
+	right: 34%;
+}
